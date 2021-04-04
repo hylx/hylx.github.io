@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>520快乐</title>
+    <title>现在找女神</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0">-->
 <!--    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">-->
@@ -106,15 +106,15 @@
 </div>
 <canvas class="canvas" width="1820" height="905"></canvas>
 <p class="text" style="color: #8ef5ff;">
-    你想说的话
+    如果可以的话，加个好友吧
     <br/>
     <span id="span_dt_dt"></span>
 </p>
 <script language="javascript">
     function show_date_time() {
         window.setTimeout("show_date_time()", 1000);
-		//你俩在一起的那天
-        BirthDay = new Date("4/27/2016 00:00:00");
+		//寻找你的第
+        BirthDay = new Date("3/22/2020 00:00:00");
         today = new Date();
         timeold = (today.getTime() - BirthDay.getTime());
         sectimeold = timeold / 1000
@@ -138,7 +138,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
             // 动态变化的话,用|分割
-            S.UI.simulate("在吗？|我找你很久了|如果可以|能加个好友吗|#countdown 3|#time");
+            S.UI.simulate("在吗？|生于1996|我找你很久了|如果可以|能加个好友吗|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
